@@ -1,6 +1,6 @@
 body{
-	background-color:#f8f8f1;
-	
+	/* background-color:#f8f8f1; */
+	background-color: #fff;
 }
 *{
 	margin: 0px;
@@ -29,6 +29,7 @@ body{
 	height: 430px;
 	background-position: 110% 20%;
 	background-size: 100%;
+	display: block;
 	border: none;
 }
 .home-item{
@@ -91,6 +92,7 @@ html{
 	background-position: 110% 20%;
 	background-size: 45%;
 	border: none;
+	background-color:#f8f8f1;
 }
 #about-info{
 	position: relative;
@@ -110,6 +112,10 @@ html{
 	color: #bd2130;
 	font-size:  30px;
 	font-weight: bolder;
+}
+.role:hover{
+	text-decoration: underline;
+	text-underline-offset: 4px;
 }
 .cvbtn-own{
 	margin-top: 35px;
@@ -136,6 +142,7 @@ html{
   }
 .roboto-mono{
   font-family: "Roboto Mono", monospace;
+  /* font-family: sans-serif; */
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
@@ -156,10 +163,10 @@ html{
 .btn1:hover{
 	transform: scale(1.1);
 }
-#site-logo{
+.site-logo{
 	transition-duration: 1s;
 }
-#site-logo:hover{
+.site-logo:hover{
 	transform: scale(1.2);
 }
 #skills{
@@ -185,7 +192,8 @@ html{
 	}
 }
 .skill-main{
-	background-color: rgb(240, 240, 240);
+	/* background-color: rgb(240, 240, 240); */
+	background-color: #fff;
 	margin-top: -35px;
 	padding-top: 10px;
 	/* border: 1px solid darkblue; */
@@ -211,13 +219,14 @@ table{
 	margin-top: -60px;
 	height: 420px;
 	width: 100%;
-	border-spacing: 30px;
+	border-spacing: 40px;
 }
 .tbl tr td{
 	padding: 20px;
 	/* border: 2px solid royalblue ; */
 	border-radius: 10px;
-	box-shadow: 0px 0px 10px rgb(114, 110, 110);
+	box-shadow:3px 3px 3px rgb(114, 110, 110);
+	background-color: whitesmoke;
 }
 .skill-heading{
 	color: rgb(36, 4, 143);
@@ -238,13 +247,12 @@ table{
 	/* background-color: rgb(240, 240, 240); */
 	margin-top: -50px;
 	padding-top: 10px;
-	height: 600px;
 	/* border: 1px solid darkblue; */
     position: relative;
     top: auto;
 }
 #projects{
-	height: 620px;
+	height: 639px;
 	border: none;
 }
 .project-title{
@@ -255,6 +263,57 @@ table{
 .projects-content{
 	height: 520px;
 	/* border: 1px solid darkblue; */
+}
+h1{
+	text-align: center;
+	font-family: Arial black;
+	color: bisque;
+
+
+}
+h1:hover{
+	color: transparent;
+	-webkit-text-stroke: 1px bisque;
+}
+.contant-main{
+	height: 658px;
+    width: 100%;
+    /* border: 1px solid navy; */
+    margin-top: -74px;
+	display: flex;
+	padding-top: 67px;
+    padding-left: 35px;
+	text-align: left;
+    
+}
+#contant{
+	height: 691px;	
+	border: none;
+}
+.contant-info{
+	font-family: sans-serif;
+	margin-top: 10px;
+	margin-right:38px;
+	height: 565px;
+    width: 50%;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+	/* box-shadow: 0px 0px 1px; */
+}
+.contant-child{
+	padding: 15px;
+	padding-left: 36px;
+	margin-top: 50px;
+	
+}
+.footer{
+	width:100%;
+	height:50px;
+	margin-top: 100px;
+	text-align: center;
+
 }
 .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
