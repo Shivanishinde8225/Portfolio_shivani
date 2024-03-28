@@ -48,8 +48,10 @@ body{
 	width: 100%;
 }
 .brand{
-	font-size: 35px;
-	font-family: Colonna MT;
+	/* font-size: 35px;
+	font-family: Colonna MT; */
+	font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
 	/* font-family: Old English Text MT; */
 	color:rgb(252, 252, 252);
 	font-variant: small-caps;
